@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 60vh;
+    font-size: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+#botao {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #ff9100;
+    border-style: unset;
+    border-radius: 10px;
+}
+
+.padding {
+    padding: 5px;
+}
+
+#caixa-mensagem {
+    height: 100px;
+    width: 400px;
+}
+
+#caixa-texto, #caixa-email, #caixa-telefone {
+    height: 20px;
+    width: 400px;
+}
+
+select {
+    width: 100px;
+}

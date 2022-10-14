@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/padrão.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <img class="logo" src="./img/logo.png" alt="Logo Base-Social">
+        </div>
+        
+        <nav class="header-lista">
+            <ul>
+                <li>HOME</li>
+                <li>PRODUTOS</li>
+                <li>CONTATO</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label class = "padding" for="caixa-texto">Nome e Sobrenome</label>
+            <input type="text" id="caixa-texto" required>
+
+            <label class = "padding" for="caixa-email">Email</label>
+            <input type="email" id="caixa-email" placeholder="seuemail@gmail.com" required>
+
+            <label class = "padding" for="caixa-telefone">Telefone</label>
+            <input type="tel" id="caixa-telefone" placeholder="(XX) XXXXX-XXXX" required>
+
+            <label class = "padding" for="caixa-mensagem">Mensagem</label>
+            <input type="text" id="caixa-mensagem" required>
+
+            <fieldset class = "padding">
+                <legend class = "padding">Como prefere o nosso contato?</legend>
+                <label for="">
+                    <input type="radio" id="email-radio" name="opcao" value="email" required>Email
+                </label>
+    
+                <label for="">
+                    <input type="radio" id="telefone-radio" name="opcao" value="telefone" required>Telefone
+                </label>
+    
+                <label for="">
+                    <input type="radio" id="whatsapp-radio" name="opcao" value="whatsapp" required>WhatsApp
+                </label>
+            </fieldset>           
+
+            <p class = "padding">Qual horario prefere ser atendido?</p>
+            <select class = "padding" name="horario" id="hora">
+                <option value="">Selecione</option>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+
+            <label class = "padding" for="caixa">
+                <input type="checkbox" id="caixa" required>Gostaria de receber nossas novidades por email?
+            </label>
+
+            <input type="submit" id="botao" value="Enviar Formulário" required>
+        </form>
+    </main>
+
+    <footer>
+        <img class = "logo-branco" src="./img/logo-branco.png" alt="Logo Base-Social">
+        <p class="copyright">@ Copyright Marcenaria Caioba - 2022</p>
+    </footer>
+</body>
+</html>
