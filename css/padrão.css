@@ -1,3 +1,12 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 header {
     background-color: #d4d2cf;
     display: flex;
@@ -27,8 +36,7 @@ header {
 ul{
     display: flex;
     flex-direction: row;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
 }
 
 li {
@@ -44,12 +52,12 @@ li:hover{
 footer{
     width: 100vw;
     height: 25vh;
-    background-color: #20201f;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(bg.jpg);
 }
 
 .logo-branco{
