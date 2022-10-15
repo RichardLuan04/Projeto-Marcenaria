@@ -1,14 +1,16 @@
 main {
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .comodo {
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 20vh;
+    padding: 2px;
 }
 
 .linha-topo {
@@ -31,11 +33,17 @@ main {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    height: 200px;
-    width: 200px;
+    height: 25vh;
+    width: 12vw;
     border: 1.5px;
     border-style: solid;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+.bloco-img:hover {
+    transform: scale(1.1);
+    color: rgb(255, 132, 0);
 }
 
 h3 {

@@ -9,7 +9,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 30vw;
     height: 60vh;
     font-size: 20px;
 }
@@ -20,8 +20,8 @@ fieldset {
 }
 
 #botao {
-    width: 300px;
-    height: 50px;
+    width: 15vw;
+    height: 5vh;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -35,15 +35,15 @@ fieldset {
 }
 
 #caixa-mensagem {
-    height: 100px;
-    width: 400px;
+    height: 10vh;
+    width: 21vw;
 }
 
 #caixa-texto, #caixa-email, #caixa-telefone {
-    height: 20px;
-    width: 400px;
+    height: 3vh;
+    width: 21vw;
 }
 
 select {
-    width: 100px;
+    width: 21vw;
 }
