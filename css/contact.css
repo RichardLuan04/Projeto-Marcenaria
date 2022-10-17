@@ -12,7 +12,7 @@ form {
     justify-content: center;
     width: 30vw;
     height: 60vh;
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 fieldset {
@@ -23,7 +23,7 @@ fieldset {
 #botao {
     width: 15vw;
     height: 5vh;
-    font-size: 20px;
+    font-size: 2vh;
     color: white;
     background-color: #ff9100;
     border-style: unset;
@@ -31,19 +31,19 @@ fieldset {
 }
 
 .padding {
-    padding: 5px;
+    padding: 0.5vh;
 }
 
 #caixa-mensagem {
     height: 10vh;
     width: 21vw;
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 #caixa-texto, #caixa-email, #caixa-telefone {
     height: 3vh;
     width: 21vw;
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 select {
